@@ -1,0 +1,40 @@
+div{
+   
+}
+
+h1,p{
+    text-align: center;
+}
+
+.img img{
+    width: 16%;
+    border-radius: 50%;
+}
+
+.aquamarine{
+    background-color: aquamarine;
+}
+
+.antiquewhite{
+    background-color: antiquewhite;
+}
+
+.blueviolet{
+    background-color: blueviolet;
+}
+
+.coral{
+    background-color: coral;
+}
+
+.darkred{
+    background-color: darkred;
+}
+
+.chocolate{
+    background-color: chocolate;
+}
+
+.mb50{
+    margin-bottom: 50px;
+}
