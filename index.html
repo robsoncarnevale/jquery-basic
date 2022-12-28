@@ -1,29 +1,287 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script src="js/script.js"></script>
-    <title>Project JQuerry</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title>Perfil Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap css -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1>Bem vindo(a) a minha página!</h1>
-    <p>Apenas um teste de página no GIT.</p>
-    <div class="img">
-        <center>
-            <a href="https://github.com/robsoncarnevale" target="_blank" rel="noopener noreferrer">
-                <img src="img/perfil.jpg" alt="Robson Carnevale">
-            </a>
-        </center>
-       <!--  <div class="aquamarine"></div>
-        <div class="blueviolet"></div>
-        <div class="darkred"></div> 
-        <button type="submit" id="btn">Clique</button>
-        <input type="password" name="text_input" id="text_input">
-        <input type="checkbox" name="checkbox" id="checkbox"> -->
-    </div>   
+
+  <header id="header" class="header header-hide">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#body" class="scrollto"><span>RoBsoN </span>CaRneVale</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#get-started">Portifólio</a></li>
+          <li><a href="#features">Habilidades</a></li>
+          <li><a href="#team">Perfil</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+ <!--==========================
+    Get Started Section
+  ============================-->
+  <section id="get-started" class="padd-section text-center wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+
+        <h2>Portifólio Acadêmico</h2>
+        <p class="separator">Aqui tem projetos que realizei para fins acadêmico .</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+
+            <img src="img/svg/powerbi.png" alt="img" class="img-fluid">
+            <h4>Dashbourd em Power BI</h4>
+            <p>Simples dashbourd de vendas por região, gerente, vendedor e data.</p>
+            <a href="https://github.com/robsoncarnevale/project-sales-power-bi" target="_blank">Leia mais</a>
+
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+
+            <img src="img/svg/css.png" alt="img" class="img-fluid">
+            <h4>CSS animation</h4>
+            <p>Animação em css fins acadêmicos, rotações e translação sincronizadas.</p>
+            <a href="#" target="_blank">Leia Mais</a>
+
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+
+            <img src="img/svg/jquery.png" alt="img" class="img-fluid">
+            <h4>Jquery animation</h4>
+            <p>Utilizando css, eventos e animações simples e fácil .</p>
+            <a href="#" target="_blank">Leia Mais</a>
+
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <hr size="50">
+      <br>
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+
+            <img src="img/svg/angular.png" alt="img" class="img-fluid">
+            <h4>projeto em angular</h4>
+            <p>Simples projeto utilizando AngularJS e Materialize CSS .</p>
+            <a href="https://github.com/robsoncarnevale/project-sales-power-bi" target="_blank">Leia mais</a>
+
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+
+            <img src="img/svg/python.png" alt="img" class="img-fluid">
+            <h4>Selenium em Python</h4>
+            <p>Um robo para apenas entrar no GIT e copiar um repositório .</p>
+            <a href="https://github.com/robsoncarnevale/automatic-selenium-python" target="_blank">Leia Mais</a>
+
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+
+            <img src="img/svg/php.png" alt="img" class="img-fluid">
+            <h4>PHP IMC</h4>
+            <p>Cálculo simples de IMC. Utilizando Bootstrap e Jquery</p>
+            <a href="https://github.com/robsoncarnevale/imcverifica" target="_blank">Leia Mais</a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+ <!--==========================
+    Features Section
+  ============================-->
+
+  <section id="features" class="padd-section text-center wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>habilidades</h2>
+        <p class="separator">Aqui vou mencionar habilidades adquirida nos projetos desenvolvidos tanto profissional como acadêmico .</p>
+
+     
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-lg-6">
+          <div class="feature-block">
+            <img src="img/svg/paint-palette.svg" alt="img" class="img-fluid">
+            <h4>CSS</h4>
+            <p>No frontend utilizo as bibliotecas e frameworks como Bootstrap, Semantic UI, Materialize CSS, CSS3 e SASS .</p>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-lg-6">
+          <div class="feature-block">
+            <img src="img/svg/vector.svg" alt="img" class="img-fluid">
+            <h4>JS</h4>
+            <p>Ainda no frontend utilizo as bibliotecas e frameworks como Javascript, Jquery, AngularJS e React</p>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-lg-6">
+          <div class="feature-block">
+            <img src="img/svg/code.svg" alt="img" class="img-fluid">
+            <h4>PHP</h4>
+            <p>Framework em PHP conhecimento em Laravel e CodeIgniter .</p>
+          </div>
+        </div>
+
+       <div class="col-md-12 col-lg-6">
+          <div class="feature-block">
+            <img src="img/svg/design-tool.svg" alt="img" class="img-fluid">
+            <h4>Banco de Dados</h4>
+            <p>Banco de dados que utilizei foi MySQL e SQL Server .</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Team Section
+  ============================-->
+  <section id="team" class="padd-section text-center wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Perfil</h2>
+        <p class="separator">Veja projetos do desenvolvedor e seu perfil profissional .</p>
+      </div>
+    </div>
+
+    <div class="container" style="align-items: center;">
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+          <div class="team-block bottom">
+            <img src="img/team/perfil.jpg" class="img-responsive" alt="img">
+            <div class="team-content">
+              <ul class="list-unstyled">
+                <li><a href="https://github.com/robsoncarnevale" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/robson-carnevale-dev/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+              <span>Developer</span>
+              <h4>Robson Carnevale</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <!--==========================
+    Footer
+  ============================-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-lg-4">
+          <div class="footer-logo">
+
+            <a class="navbar-brand" href="#">Robson Carnevale</a>
+            <p>A idéia é mais para mostrar projetos acadêmicos no GITHUB.</p>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Dados Pessoais</h4>
+
+            <ul class="list-unstyled">
+              <li><span class="fa fa-envelope"> rccimini@gmail.com</span></li>
+              <li><span class="fa fa-phone"> (55) 11 - 96452 9085</span></li>
+              <li><span class="fa fa-flag-o"> São Paulo/SP</span</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copyrights">
+      <div class="container">
+        <p>&copy; Copyrights Robson Carnevale. All rights reserved.</p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
 </html>
